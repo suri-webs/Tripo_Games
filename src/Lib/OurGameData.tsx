@@ -6,8 +6,8 @@ interface BoxPosition {
     heading: string;
     Para: string;
     paragraph: string
-    apple:string
-    playstore:string
+    apple: string
+    playstore: string
 }
 
 export const boxPositions: BoxPosition[] = [
@@ -42,3 +42,54 @@ export const boxPositions: BoxPosition[] = [
         playstore: "/images/Google.avif"
     },
 ];
+
+
+// data of what section 
+
+
+export const dataWhat = [
+    { paragraph: " I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you." },
+    { paragraph: "   I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you." },
+]
+
+export const WhatTextData = [
+    {
+        heading: "Accomplishment",
+        paragraph: "I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you."
+    },
+    {
+        heading: "Creativity",
+        paragraph: "I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you."
+    },
+]
+
+export const WhatTextData2 = [
+    {
+        heading: "Creativity",
+        paragraph: "I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you."
+    }
+]
+
+export const images = [
+    {
+        image: "/images/Cartoon1.jpg",
+        name: "Suraj",
+        work:"Amarjeet Daddy"
+    },
+    {
+        image: "/images/Cartoon2.jpg",
+        name: "Ayush",
+        work:"Game Devloper"
+    },
+    {
+        image: "/images/Cartoon3.jpg",
+        name: "AmarBeta",
+        work:"Suraj ka Beta"
+    },
+    {
+        image: "/images/Cartoon4.jpg",
+        name: "Lodu Lalit",
+        work:"Meri Ooladd"
+    },
+
+]

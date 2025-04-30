@@ -13,7 +13,7 @@ export default function GetinTouch() {
                 <span className="flex flex-col gap-2 "><p className="text-xl">Email*</p><input type="email" className="border w-[100%] h-[45px] rounded-xl" /></span>
                 <span className="flex flex-col gap-2 "><p className="text-xl">Leave us a message...</p>
                     <textarea className="border w-[100%] h-[100px] rounded-[10px]" name="" id=""></textarea></span>
-                <button className="w-[100%] py-[10px] text-xl rounded-xl bg-[#272443] text-white">Submit</button>
+                <button className="w-[100%] py-[10px] text-xl rounded-xl hover:bg-[#FCFF77] hover:text-black transition-all ease-in duration-300 bg-[#272443] text-white">Submit</button>
             </div>
 
             <div className="w-[420px] 
@@ -28,7 +28,7 @@ export default function GetinTouch() {
                     <span className="border border-white  w-[20px] h-[20px]"></span>
                     <p className="text-[15px] text-white w-[250px]">Yes, subscribe me to your newsletter. *</p>
 
-                    <button className="px-[35px] py-[7px] rounded-[10px] text-[17px] bg-[#FCFF72]">Join</button>
+                    <button className="px-[35px] py-[7px] rounded-[10px] text-[17px] hover:bg-white hover:text-black duration-300 transition-all ease-in bg-[#FCFF72]">Join</button>
                 </div>
             </div>
         </section>

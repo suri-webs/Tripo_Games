@@ -1,8 +1,10 @@
-import { Pacifico } from "next/font/google"; // <-- Import Pacifico font
+import { Pacifico } from "next/font/google";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Suez_One } from "next/font/google"; // <-- Import Suez One
+import { Suez_One } from "next/font/google"; 
 import "./globals.css";
+import Navbar from "@/Components/Navbar/Navbar";
+import Footer from "@/Components/Footer/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,15 +17,15 @@ const geistMono = Geist_Mono({
 });
 
 const suezOne = Suez_One({
-  variable: "--font-suez-one", // <-- Custom CSS variable for Suez One
+  variable: "--font-suez-one", 
   subsets: ["latin"],
-  weight: "400",               // <-- Suez One typically only has one weight
+  weight: "400",            
 });
 
 const pacifico = Pacifico({
-  variable: "--font-pacifico", // <-- Custom CSS variable for Pacifico
+  variable: "--font-pacifico",
   subsets: ["latin"],
-  weight: "400",               // <-- Pacifico has one weight
+  weight: "400",            
 });
 
 export const metadata: Metadata = {
@@ -41,7 +43,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${suezOne.variable} ${pacifico.variable} antialiased`}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

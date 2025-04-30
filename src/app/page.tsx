@@ -10,14 +10,12 @@ import OurGame from "@/Components/OurGame/OurGame";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <Header />
       <About />
       <HoverCards />
       <OurGame />
       <JoinourTeam />
       <GetinTouch />
-      <Footer />
     </>
 
   );
