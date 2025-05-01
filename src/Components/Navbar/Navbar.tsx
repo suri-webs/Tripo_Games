@@ -1,33 +1,6 @@
+import { Navbardata } from "@/Lib/OurGameData";
 import Link from "next/link";
-
-interface NavbarProps {
-    NavTittle: string;
-    href: string
-}
-
-const Navbardata: NavbarProps[] = [
-    {
-        NavTittle: "Home",
-        href: "/"
-    },
-    {
-        NavTittle: "About",
-        href: "/about"
-    },
-    {
-        NavTittle: "Careers",
-        href: ""
-    },
-    {
-        NavTittle: "Games",
-        href: ""
-    },
-    {
-        NavTittle: "Contact",
-        href: ""
-    },
-];
-
+Navbardata
 export default function Navbar() {
     return (
         <nav className="flex justify-between z-99 items-start fixed top-0  w-full h-[90px] px-[80px]  text-black">

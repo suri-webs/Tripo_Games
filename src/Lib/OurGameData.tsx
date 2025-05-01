@@ -1,4 +1,42 @@
 
+
+// navbar data 
+interface NavbarProps {
+    NavTittle: string;
+    href: string
+}
+export const Navbardata: NavbarProps[] = [
+    {
+        NavTittle: "Home",
+        href: "/"
+    },
+    {
+        NavTittle: "About",
+        href: "/about"
+    },
+    {
+        NavTittle: "Careers",
+        href: "/careers"
+    },
+    {
+        NavTittle: "Games",
+        href: "/"
+    },
+    {
+        NavTittle: "Contact",
+        href: "/contact"
+    },
+];
+
+
+
+
+
+
+
+
+
+
 interface BoxPosition {
     id: string;
     className: string;
@@ -92,4 +130,34 @@ export const images = [
         work:"Meri Ooladd"
     },
 
+]
+
+
+// JobOpningData 
+
+export const JobOpningData = [
+    {
+        image: "/images/CardRobot1.avif",
+        title: "Community Manager",
+        post: "San Francisco, CA",
+        paragraph: "I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.",
+    },
+    {
+        image: "/images/CardRobot2.avif",
+        title: "QA Tester",
+        post: "San Francisco, CA",
+        paragraph: "I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.",
+    },
+    {
+        image: "/images/CardRobot3.avif",
+        title: "Game Designer",
+        post: "San Francisco, CA",
+        paragraph: "I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.",
+    },
+    {
+        image: "/images/CardRobot4.avif",
+        title: "Game Developer",
+        post: "San Francisco, CA",
+        paragraph: "I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.",
+    },
 ]

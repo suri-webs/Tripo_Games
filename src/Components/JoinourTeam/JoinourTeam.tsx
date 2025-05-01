@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 export default function JoinourTeam() {
     return (
-        <section className="w-full relative h-[800px] bg-[url('/Images/First-fixed-bg.avif')] bg-cover bg-center bg-no-repeat bg-fixed flex justify-start p-[120px] items-start">
+        <Link href={"/contact"} className="w-full relative h-[800px] bg-[url('/Images/First-fixed-bg.avif')] bg-cover bg-center bg-no-repeat bg-fixed flex justify-start p-[120px] items-start">
 
             <div className="w-[800px] flex flex-col gap-10">
                 <h1 className="text-3xl text-white font-medium">Join Our Team</h1>
@@ -11,7 +13,7 @@ export default function JoinourTeam() {
 
 
             <img src="/images/Hat-Cat.avif" className="absolute bottom-0 right-20" alt="" />
-        </section>
+        </Link>
 
     )
 }

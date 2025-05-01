@@ -1,8 +1,8 @@
 export default function OurOffice() {
     return (
-        <section className="w-full relative h-[700px] flex justify-center items-center bg-[url('/Images/OurOffice_bg.avif')] bg-cover bg-center bg-no-repeat bg-fixed">
+        <section className="w-full relative h-[700px]   flex justify-center items-center bg-[url('/Images/OurOffice_bg.avif')] bg-cover bg-center bg-no-repeat bg-fixed">
             <div className="w-full h-full absolute inset-0 bg-[#eb2f22b6]" ></div>
-            <div className="w-[45%] z-89 flex justify-center items-center h-full" >
+            <div className="w-[45%] z-89 flex justify-center items-center h-full " >
                 <ul className="w-[60%] text-white flex flex-col  gap-5">
                     <li className="text-2xl font-medium">Our Offices</li>
                     <li className="text-5xl suez-regular w-[80%]">Our Studio in San Francisco</li>
@@ -17,8 +17,9 @@ export default function OurOffice() {
                     <button className="px-[55px] py-5 text-xl w-fit bg-[#272443] text-white">Explore Opportunities</button>
 
                 </div>
-            </div>
 
+            </div>
+      
         </section>
     )
 }
