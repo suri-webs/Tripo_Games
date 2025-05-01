@@ -1,4 +1,4 @@
-import { WhatTextData, WhatTextData2 } from "@/Lib/OurGameData"
+import { WhatTextData, WhatTextData2 } from "@/Lib/AllDatas"
 import Founders from "../Founders/Founders"
 WhatTextData
 WhatTextData2

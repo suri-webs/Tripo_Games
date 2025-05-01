@@ -1,4 +1,4 @@
-import { dataWhat } from "@/Lib/OurGameData"
+import { dataWhat } from "@/Lib/AllDatas"
 
 export default function ABoutPara() {
     dataWhat

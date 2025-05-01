@@ -1,4 +1,4 @@
-import { images } from "@/Lib/OurGameData"
+import { images } from "@/Lib/AllDatas"
 images
 export default function Founders() {
     return (

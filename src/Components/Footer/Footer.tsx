@@ -1,4 +1,4 @@
-import { FooterData } from "@/Lib/FooterData";
+import { FooterData } from "@/Lib/AllDatas";
 
 export default function Footer() {
     FooterData

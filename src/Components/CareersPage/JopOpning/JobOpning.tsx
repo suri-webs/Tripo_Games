@@ -1,4 +1,4 @@
-import { JobOpningData } from "@/Lib/OurGameData"
+import { JobOpningData } from "@/Lib/AllDatas"
 JobOpningData
 
 export default function JobOpning() {

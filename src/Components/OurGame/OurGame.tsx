@@ -1,4 +1,4 @@
-import { boxPositions } from '@/Lib/OurGameData';
+import { boxPositions } from '@/Lib/AllDatas';
 import React from 'react';
 
 export default function OurGame() {

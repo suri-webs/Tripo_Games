@@ -5,7 +5,7 @@ interface NavbarProps {
     NavTittle: string;
     href: string
 }
-export const Navbardata: NavbarProps[] = [
+export const Navbardata1: NavbarProps[] = [
     {
         NavTittle: "Home",
         href: "/"
@@ -14,21 +14,34 @@ export const Navbardata: NavbarProps[] = [
         NavTittle: "About",
         href: "/about"
     },
+];
+
+export const NavbarGameData: NavbarProps[] = [
+    {
+        NavTittle: "Kipon",
+        href: "/"
+    },
+    {
+        NavTittle: "Robotrix",
+        href: "/"
+    },
+    {
+        NavTittle: "Treasure Box",
+        href: "/"
+    }
+
+]
+
+export const Navbardata2: NavbarProps[] = [
     {
         NavTittle: "Careers",
         href: "/careers"
     },
     {
-        NavTittle: "Games",
-        href: "/"
-    },
-    {
         NavTittle: "Contact",
         href: "/contact"
     },
-];
-
-
+]
 
 
 
@@ -112,22 +125,22 @@ export const images = [
     {
         image: "/images/Cartoon1.jpg",
         name: "Suraj",
-        work:"Amarjeet Daddy"
+        work: "Amarjeet Daddy"
     },
     {
         image: "/images/Cartoon2.jpg",
         name: "Ayush",
-        work:"Game Devloper"
+        work: "Game Devloper"
     },
     {
         image: "/images/Cartoon3.jpg",
         name: "AmarBeta",
-        work:"Suraj ka Beta"
+        work: "Suraj ka Beta"
     },
     {
         image: "/images/Cartoon4.jpg",
         name: "Lodu Lalit",
-        work:"Meri Ooladd"
+        work: "Meri Ooladd"
     },
 
 ]
@@ -161,3 +174,30 @@ export const JobOpningData = [
         paragraph: "I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.",
     },
 ]
+
+export const FooterData = [
+    {
+        title: "Contact",
+        items: ["Info@mysite.com", "Tel: 123-456-7890", "500 Terry Francine St", "San Francisco, CA 94158"]
+    },
+    {
+        title: "Navigation",
+        items: [
+            "Games", "Careers", "About", "Contact", "Accessibility",
+            "Terms & Conditions", "Privacy Policy", "Shipping Policy", "Refund Policy"
+        ],
+        useAnchor: true
+    },
+    {
+        title: "Social",
+        items: ["Discord", "Twitch", "Facebook", "Youtube", "Twitter", "LinkedIn"],
+        useAnchor: true
+    },
+    {
+        title: "Find Us On",
+        items: [
+            <img key="apple" className="w-[170px]" src="/images/apple.png" alt="Apple Store" />,
+            <img key="google" className="w-[170px]" src="/images/Google.avif" alt="Google Play" />
+        ]
+    }
+];
