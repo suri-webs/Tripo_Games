@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function Navbar() {
     return (
         <nav className="flex justify-between z-50 items-start fixed top-0 w-full h-[90px] px-[80px] text-black">
-            <h1 className="text-[25px] pacifico-regular flex items-center h-[90%] rounded-b-2xl px-6 gap-2 bg-[#DA392B] text-white">
+            <Link href={"/"} className="text-[25px] pacifico-regular flex items-center h-[90%] rounded-b-2xl px-6 gap-2 bg-[#DA392B] text-white">
                 Tripo Games
-            </h1>
+            </Link>
 
             <ul className="flex h-[90%] w-[50%] rounded-b-2xl items-center justify-center bg-white text-xl font-sans z-99">
                 {Navbardata1.map((item, index) => (

@@ -1,14 +1,24 @@
-// #272443
+import Link from "next/link";
 
 
 interface HoverCardsProps {
     image: string;
+    link: string
 }
 
 const HoverCardsdata: HoverCardsProps[] = [
-    { image: "/images/Helloween.jpg" },
-    { image: "/images/Robot.jpg" },
-    { image: "/images/Coin.jpg" },
+    {
+        image: "/images/Helloween.jpg",
+        link: "/kipon"
+    },
+    {
+        image: "/images/Robot.jpg",
+        link: "/robotrix"
+    },
+    {
+        image: "/images/Coin.jpg",
+        link: "/treasure"
+    },
 ];
 
 export default function HoverCards() {
@@ -19,10 +29,12 @@ export default function HoverCards() {
                 {
                     HoverCardsdata.map((items, index) => {
                         return (
-                            <div key={index} className="group w-[320px] h-[400px] rounded-2xl relative z-10 overflow-hidden">
-                                <div className="absolute inset-0 z-10 scale-100 hover:scale-0 hover:rounded-[100%] transition-all ease-in duration-700 bg-[linear-gradient(180deg,rgba(218,57,43,0),rgba(218,57,43,0.8))]"></div>
-                                <img className="absolute w-full h-full object-center object-cover transition-transform ease-in duration-400 group-hover:scale-105" src={items.image} alt="" />
-                            </div>
+                            <Link key={index} href={items.link}>
+                                <div  className="group w-[320px] h-[400px] rounded-2xl relative z-10 overflow-hidden">
+                                    <div className="absolute inset-0 z-10 scale-100 hover:scale-0 hover:rounded-[100%] transition-all ease-in duration-700 bg-[linear-gradient(180deg,rgba(218,57,43,0),rgba(218,57,43,0.8))]"></div>
+                                    <img className="absolute w-full h-full object-center object-cover transition-transform ease-in duration-400 group-hover:scale-105" src={items.image} alt="" />
+                                </div>
+                            </Link>
                         )
                     })
                 }

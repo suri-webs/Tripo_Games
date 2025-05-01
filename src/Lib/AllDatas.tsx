@@ -254,14 +254,14 @@ interface TreasureReviewProps {
 export const TreasureReviewsData: TreasureReviewProps[] = [
     {
         Paragraph: "I'm a testimonial. Click to edit me and add text that says something nice about you and your services.",
-        Reviewittle: "Omar Zaine"
+        Reviewittle: "Max Ottis"
     },
     {
         Paragraph: "I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.",
-        Reviewittle: "Jay Jay"
+        Reviewittle: "Charlie K"
     },
     {
         Paragraph: "I'm a testimonial. Click to edit me and add text that says something nice about you and your services.",
-        Reviewittle: "Danni Lopez",
+        Reviewittle: "Sofie Zacks",
     }
 ]
