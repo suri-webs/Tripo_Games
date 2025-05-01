@@ -7,7 +7,7 @@ export default function Navbar() {
                 Tripo Games
             </h1>
 
-            <ul className="flex h-[90%] w-[50%] rounded-b-2xl items-center justify-center bg-white text-xl font-sans">
+            <ul className="flex h-[90%] w-[50%] rounded-b-2xl items-center justify-center bg-white text-xl font-sans z-99">
                 {Navbardata1.map((item, index) => (
                     <li key={index} className="w-[40%] h-full">
                         <Link href={item.href} className={`text-2xl font-serif h-full flex justify-center items-center w-full transition-all ease-in duration-300 hover:bg-[#DA392B] hover:text-white ${index === 0 ? "rounded-bl-2xl" : ""}`}>

@@ -19,15 +19,15 @@ export const Navbardata1: NavbarProps[] = [
 export const NavbarGameData: NavbarProps[] = [
     {
         NavTittle: "Kipon",
-        href: "/"
+        href: "/kipon"
     },
     {
         NavTittle: "Robotrix",
-        href: "/"
+        href: "/robotrix"
     },
     {
         NavTittle: "Treasure Box",
-        href: "/"
+        href: "/treasure"
     }
 
 ]
@@ -44,11 +44,7 @@ export const Navbardata2: NavbarProps[] = [
 ]
 
 
-
-
-
-
-
+// boxPositions 
 
 interface BoxPosition {
     id: string;
@@ -96,7 +92,6 @@ export const boxPositions: BoxPosition[] = [
 
 
 // data of what section 
-
 
 export const dataWhat = [
     { paragraph: " I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you." },
@@ -201,3 +196,29 @@ export const FooterData = [
         ]
     }
 ];
+
+
+
+// ReviewsData 
+
+interface ReviewProps {
+    Reviewittle: string;
+    Paragraph: string
+}
+
+export const ReviewsData: ReviewProps[] = [
+    {
+        Paragraph: "I'm a testimonial. Click to edit me and add text that says something nice about you and your services.",
+        Reviewittle: " Wang Wai"
+    },
+    {
+        Paragraph: "I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.",
+        Reviewittle: "Jose Pablo"
+    },
+    {
+        Paragraph: "I'm a testimonial. Click to edit me and add text that says something nice about you and your services.",
+        Reviewittle: "Priya Gunga",
+    }
+]
+
+

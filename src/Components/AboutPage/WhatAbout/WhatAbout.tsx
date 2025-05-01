@@ -8,7 +8,7 @@ export default function WhatAbout() {
     return (
         <section className="w-full py-[150px] relative bg-[url('/Images/AboutWhat-bg.avif')] bg-cover bg-center bg-no-repeat bg-fixed flex justify-center items-center">
             <div className="w-full h-full bg-[#f6f4f1cf] absolute inset-0 "></div>
-            <div className="z-89 flex justify-center items-center flex-col gap-15">
+            <div className="z-9 flex justify-center items-center flex-col gap-15">
                 <h3 className="text-5xl suez-regular text-[#272443]">What We Are About</h3>
                 <div className="flex justify-center items-center gap-10 ">
                     {WhatTextData.map((items, index) => {

@@ -8,8 +8,8 @@ export default function Founders() {
                 {
                     images.map((items, index) => {
                         return (
-                            <div key={index} className="w-[250px]  relative overflow-hidden rounded-3xl h-[330px] z-10 group">
-                                <ul className="absolute h-[80px] flex-col w-full -bottom-20 flex justify-center items-center text-2xl bg-[#222222da] text-white z-99 group-hover:bottom-0 transition-all ease-in duration-500 ">
+                            <div key={index} className="w-[250px]  relative overflow-hidden rounded-3xl h-[330px]  group">
+                                <ul className="absolute h-[80px] flex-col w-full -bottom-20 flex justify-center items-center text-2xl bg-[#222222da] text-white  group-hover:bottom-0 transition-all ease-in duration-500 ">
                                     <li className="suez-regular">{items.name}</li>
                                     <li className="text-xl">{items.work}</li>
                                 </ul>
