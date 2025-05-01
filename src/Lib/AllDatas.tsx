@@ -221,4 +221,47 @@ export const ReviewsData: ReviewProps[] = [
     }
 ]
 
+// Robotreix reviews 
 
+
+interface RobotReviewProps {
+    Reviewittle: string;
+    Paragraph: string
+}
+
+export const RobotReviewsData: RobotReviewProps[] = [
+    {
+        Paragraph: "I'm a testimonial. Click to edit me and add text that says something nice about you and your services.",
+        Reviewittle: "Omar Zaine"
+    },
+    {
+        Paragraph: "I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.",
+        Reviewittle: "Jay Jay"
+    },
+    {
+        Paragraph: "I'm a testimonial. Click to edit me and add text that says something nice about you and your services.",
+        Reviewittle: "Danni Lopez",
+    }
+]
+// Treasure reviews 
+
+
+interface TreasureReviewProps {
+    Reviewittle: string;
+    Paragraph: string
+}
+
+export const TreasureReviewsData: TreasureReviewProps[] = [
+    {
+        Paragraph: "I'm a testimonial. Click to edit me and add text that says something nice about you and your services.",
+        Reviewittle: "Omar Zaine"
+    },
+    {
+        Paragraph: "I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.",
+        Reviewittle: "Jay Jay"
+    },
+    {
+        Paragraph: "I'm a testimonial. Click to edit me and add text that says something nice about you and your services.",
+        Reviewittle: "Danni Lopez",
+    }
+]
