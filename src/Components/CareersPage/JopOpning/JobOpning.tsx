@@ -4,10 +4,10 @@ JobOpningData
 export default function JobOpning() {
     return (
 
-        <section className="w-full h-[1000px] flex justify-center items-center bg-[#F6F4F0]" >
-            <div className="w-[89%]  h-[100%] bg-[#DA392B] flex flex-col gap-10 items-center justify-center p-[40px] ">
-                <h2 className="text-white text-[52px] suez-regular pt-10 ">Job Openings</h2>
-                <div className="w-full h-full  flex justify-between items-center">
+        <section className="w-full h-[1000px] max-md:h-full flex justify-center items-center bg-[#F6F4F0]" >
+            <div className="w-[89%] max-md:w-full h-[100%] bg-[#DA392B] flex flex-col gap-10 items-center justify-center p-[40px] ">
+                <h2 className="text-white text-[52px] max-md:text-[40px] suez-regular pt-10 ">Job Openings</h2>
+                <div className="w-full h-full max-md:flex-col  flex justify-between items-center">
                     {JobOpningData.map((items, index) => {
                         return (
                             <div key={index} className="w-[320px] p-[20px] flex flex-col gap-5 h-[80%]">

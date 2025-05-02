@@ -44,6 +44,28 @@ export const Navbardata2: NavbarProps[] = [
 ]
 
 
+interface SecNavbarProps {
+    NavTittle: string;
+    href: string
+}
+export const Navbardata: SecNavbarProps[] = [
+    {
+        NavTittle: "Home",
+        href: "/"
+    },
+    {
+        NavTittle: "About",
+        href: "/about"
+    },
+    {
+        NavTittle: "Careers",
+        href: "/careers"
+    },
+    {
+        NavTittle: "Contact",
+        href: "/contact"
+    },
+];
 // boxPositions 
 
 interface BoxPosition {
