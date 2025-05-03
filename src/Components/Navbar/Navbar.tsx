@@ -26,9 +26,9 @@ export default function Navbar() {
                         <NavLink href={item.href} title={item.NavTittle} className={i === 0 ? "rounded-bl-2xl" : ""} />
                     </li>
                 ))}
-                <li className="relative w-[40%] h-full group flex justify-center items-center cursor-pointer hover:bg-[#DA392B] hover:text-white transition-all">
+                <li className="relative w-[40%] h-full text-2xl font-serif group flex justify-center items-center cursor-pointer hover:bg-[#DA392B] hover:text-white transition-all">
                     Games
-                    <div className="absolute hidden group-hover:flex flex-col gap-2 text-black text-[17px] bg-white rounded-b-2xl -bottom-33.5 left-0 w-full z-10 shadow-md">
+                    <div className="absolute hidden group-hover:flex flex-col gap-2 text-black text-[17px] bg-white rounded-b-2xl -bottom-33.5 left-0 w-full overflow-hidden z-10 shadow-md">
                         {NavbarGameData.map((item, i) => (
                             <Link key={i} href={item.href} className="py-2 text-center hover:bg-[#DA392B] hover:text-white transition-all">
                                 {item.NavTittle}
