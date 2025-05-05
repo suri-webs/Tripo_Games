@@ -17,7 +17,7 @@ export default function OurGame() {
                 <div className="absolute inset-0 p-5 max-md:hidden flex ">
                     <div className="relative max-md:flex w-full h-full">
                         {boxPositions.map((pos) => (
-                            <div key={pos.id} className={`absolute  ${pos.className} w-[380px] h-[40%] p-[30px] rounded-2xl bg-white shadow-[5px_5px_10px_#FAC8C7]`}>
+                            <div key={pos.id} className={`absolute  ${pos.className} w-[380px] max-md:h-[45%] h-[38%] p-[30px] rounded-2xl bg-white shadow-[5px_5px_10px_#FAC8C7]`}>
                                 <div className="flex flex-col gap-7 py-[20px]">
                                     <div className="flex gap-5">
                                         <span className="shadow-[0_0_10px_#FAC8C7] w-[100px] h-[100px] flex justify-center items-center rounded-4xl">
