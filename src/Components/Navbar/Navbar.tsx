@@ -10,7 +10,7 @@ export default function Navbar() {
 
     const NavLink = ({ href, title, className = "" }: { href: string; title: string; className?: string }) => (
         <Link href={href}
-            className={`text-2xl font-serif h-full flex justify-center items-center w-full transition-all duration-300 hover:bg-[#DA392B] hover:text-white ${className}`}>
+            className={`text-2xl font-serif h-full flex justify-center items-center w-full transition-all duration-400 duration-300 hover:bg-[#DA392B] hover:text-white ${className}`}>
             {title}
         </Link>
     );
@@ -27,12 +27,12 @@ export default function Navbar() {
                         <NavLink href={item.href} title={item.NavTittle} className={i === 0 ? "rounded-bl-2xl" : ""} />
                     </li>
                 ))}
-                <li className="relative w-[40%] h-full text-2xl font-serif group flex justify-center items-center cursor-pointer hover:bg-[#DA392B] hover:text-white transition-all">
+                <li className="relative w-[40%] h-full text-2xl font-serif group flex justify-center items-center cursor-pointer hover:bg-[#DA392B] hover:text-white transition-all duration-400">
                     Games
                     <div className="absolute hidden group-hover:flex flex-col gap-2 text-black text-[17px] bg-white rounded-b-2xl -bottom-33.5 left-0 w-full overflow-hidden z-10 shadow-md">
                         {NavbarGameData.map((item, i) => (
                             <Link key={i} href={item.href}
-                                className="py-2 text-center hover:bg-[#DA392B] hover:text-white transition-all">
+                                className="py-2 text-center hover:bg-[#DA392B] hover:text-white transition-all duration-400">
                                 {item.NavTittle}
                             </Link>
                         ))}
@@ -61,14 +61,14 @@ export default function Navbar() {
                                 </Link>
                             </li>
                         ))}
-                        <li className="relative w-full h-[40px] rounded-b-[10px] group flex justify-end pr-[30px] items-center cursor-pointer hover:bg-[#DA392B] hover:text-white transition-all"
+                        <li className="relative w-full h-[40px] rounded-b-[10px] group flex justify-end pr-[30px] items-center cursor-pointer hover:bg-[#DA392B] hover:text-white transition-all duration-400"
                             onClick={() => setOpen1(!open1)}>
                             Games
                             {open1 && (
                                 <div className="absolute flex flex-col overflow-hidden gap-2 text-black text-[16px] bg-white rounded-b-2xl -bottom-33.5 left-0 w-full z-10 shadow-md">
                                     {NavbarGameData.map((item, i) => (
                                         <Link key={i} href={item.href}
-                                            className="py-2 text-end pr-[27px] hover:bg-[#DA392B] hover:text-white transition-all">
+                                            className="py-2 text-end pr-[27px] hover:bg-[#DA392B] hover:text-white transition-all duration-400">
                                             {item.NavTittle}
                                         </Link>
                                     ))}
