@@ -10,7 +10,7 @@ export default function Navbar() {
 
     const NavLink = ({ href, title, className = "" }: { href: string; title: string; className?: string }) => (
         <Link href={href}
-            className={`text-2xl font-serif h-full flex justify-center items-center w-full transition-all duration-400 duration-300 hover:bg-[#DA392B] hover:text-white ${className}`}>
+            className={`text-2xl font-serif h-full flex justify-center items-center w-full transition-all duration-400  hover:bg-[#DA392B] hover:text-white ${className}`}>
             {title}
         </Link>
     );

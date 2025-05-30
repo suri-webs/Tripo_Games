@@ -1,4 +1,5 @@
 import { boxPositions } from '@/Lib/AllDatas';
+import Image from 'next/image';
 import React from 'react';
 
 export default function OurGame() {
@@ -12,7 +13,7 @@ export default function OurGame() {
             </div>
 
             <div className="w-[85%] h-fit relative overflow-hidden flex justify-center items-center bg-[#F6F4F0]">
-                <img className="w-full" src="/images/phonetreee.avif" alt="Phone Tree Game" />
+                <Image className="!w-full" src="/images/phonetreee.avif" alt="Phone Tree Game" width={1500} height={100}/>
 
                 <div className="absolute inset-0 p-5 max-md:hidden flex ">
                     <div className="relative max-md:flex w-full h-full">
@@ -21,7 +22,7 @@ export default function OurGame() {
                                 <div className="flex flex-col gap-7 py-[20px]">
                                     <div className="flex gap-5">
                                         <span className="shadow-[0_0_10px_#FAC8C7] w-[100px] h-[100px] flex justify-center items-center rounded-4xl">
-                                            <img className="w-[85px] h-[85px] rounded-4xl" src={pos.image} alt="" />
+                                            <Image className="!w-[85px] !h-[85px] rounded-4xl" src={pos.image} alt="" width={100} height={1000} />
                                         </span>
                                         <div className="flex flex-col justify-center">
                                             <h2 className="text-3xl text-[#272443] suez-regular">{pos.heading}</h2>
@@ -29,11 +30,11 @@ export default function OurGame() {
                                         </div>
                                     </div>
                                     <p className='text-[18px] text-[#272443]'>{pos.paragraph}</p>
-                                    <div className='flex gap-5'><img className='w-[150px]' src={pos.apple} alt="" /><img className='w-[150px]' src={pos.playstore} alt="" /></div>
+                                    <div className='flex gap-5'><Image className='!w-[150px]' src={pos.apple} alt="" width={100} height={100}/><Image className='w-[150px]' src={pos.playstore} alt=""  width={100} height={100}/></div>
                                 </div>
                             </div>
                         ))}
-                        <img className="absolute bottom-0 right-0 w-[350px]" src="/images/Ghost-cute.avif" alt="" />
+                        <Image className="absolute bottom-0 right-0 !w-[350px]" src="/images/Ghost-cute.avif" alt="" width={100} height={1000}/>
                     </div>
                 </div>
 

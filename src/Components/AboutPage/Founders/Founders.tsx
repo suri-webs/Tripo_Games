@@ -1,4 +1,5 @@
 import { images } from "@/Lib/AllDatas"
+import Image from "next/image"
 images
 export default function Founders() {
     return (
@@ -13,7 +14,7 @@ export default function Founders() {
                                     <li className="suez-regular">{items.name}</li>
                                     <li className="text-xl">{items.work}</li>
                                 </ul>
-                                <img src={items.image} className="w-full h-full hover:scale-105 transition-all ease-in duration-500 absolute inset-0 z-5" alt="" />
+                                <Image src={items.image} className="!w-full !h-full hover:scale-105 transition-all ease-in duration-500 absolute inset-0 z-5" alt=""  width={100} height={100}/>
                             </div>
                         )
                     })
