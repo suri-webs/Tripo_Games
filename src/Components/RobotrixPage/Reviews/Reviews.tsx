@@ -1,6 +1,5 @@
 import {  RobotReviewsData } from "@/Lib/AllDatas";
 import { Star } from "lucide-react";
-RobotReviewsData
 export default function Reviews() {
     return (
         <section className="w-full h-[600px] max-lg:h-full max-lg:py-[50px] gap-5 flex flex-col justify-center items-center bg-[#F6F4F0]">

@@ -1,6 +1,5 @@
 import { TreasureReviewsData } from "@/Lib/AllDatas";
 import { Star } from "lucide-react";
-TreasureReviewsData
 export default function TreasureReviews() {
     return (
         <section className="w-full h-[600px] max-lg:h-full max-lg:py-[50px] gap-5 flex flex-col justify-center items-center bg-[#F6F4F0]">

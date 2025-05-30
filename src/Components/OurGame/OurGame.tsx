@@ -8,7 +8,7 @@ export default function OurGame() {
             <div className="w-[50%] max-sm:w-full text-center flex flex-col gap-5 items-center">
                 <h2 className="text-5xl max-sm:text-2xl suez-regular  text-[#272443]">Our Games</h2>
                 <p className="text-[20px] max-sm:w-[90%] max-sm:text-[15px] text-[#272443]">
-                    I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
+                    Im a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
                 </p>
             </div>
 

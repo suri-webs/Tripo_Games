@@ -1,5 +1,5 @@
 import { JobOpningData } from "@/Lib/AllDatas"
-JobOpningData
+import Image from "next/image"
 
 export default function JobOpning() {
     return (
@@ -12,7 +12,7 @@ export default function JobOpning() {
                         return (
                             <div key={index} className="w-[320px] p-[20px] flex flex-col gap-5 h-[80%]">
                                 <div className="w-[100%] overflow-hidden h-[250px] rounded-3xl">
-                                    <img className="w-full h-full hover:scale-105 transition-all ease-in duration-300 " src={items.image} alt="" />
+                                    < Image className="!w-full !h-full hover:scale-105 transition-all ease-in duration-300 " src={items.image} alt="" width={1000} height={100} />
                                 </div>
                                 <ul className="text-white">
                                     <li className="text-2xl font-medium">{items.title}</li>

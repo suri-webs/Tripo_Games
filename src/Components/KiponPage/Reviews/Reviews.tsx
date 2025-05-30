@@ -1,6 +1,5 @@
 import { ReviewsData } from "@/Lib/AllDatas";
 import { Star } from "lucide-react";
-ReviewsData
 
 export default function Reviews() {
     return (

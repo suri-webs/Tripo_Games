@@ -1,7 +1,6 @@
 import { FooterData } from "@/Lib/AllDatas";
 
 export default function Footer() {
-    FooterData
     return (
         <footer className="w-full h-[750px] max-md:h-full max-md:py-[50px] flex flex-col gap-10 justify-center items-center bg-[#F6F4F0]">
             <h4 className="text-4xl suez-regular w-[90%] max-md:text-2xl max-md:w-[90%] text-center text-[#272443] pb-[20px] border-b-4 rounded-2xl">

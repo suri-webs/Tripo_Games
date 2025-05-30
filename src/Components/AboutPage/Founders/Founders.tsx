@@ -1,6 +1,5 @@
 import { images } from "@/Lib/AllDatas"
 import Image from "next/image"
-images
 export default function Founders() {
     return (
         <section className="w-[85%] max-md:mt-[20px] max-md:w-full max-md:py-5 h-[550px] max-md:h-full gap-10 flex flex-col  justify-center items-center bg-[#272443]">

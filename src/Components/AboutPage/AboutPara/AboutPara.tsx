@@ -1,7 +1,6 @@
 import { dataWhat } from "@/Lib/AllDatas"
 
 export default function ABoutPara() {
-    dataWhat
     return (
         <section className="w-full h-[650px] max-md:flex-col max-md:h-full flex justify-center items-center">
             <div className="w-[40%] h-full max-md:h-[300px] max-md:w-full  bg-[url('/Images/AboutPra-bg.avif')] bg-cover bg-center bg-no-repeat bg-fixed max-md:bg-scroll" ></div>

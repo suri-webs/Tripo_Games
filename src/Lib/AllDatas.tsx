@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 
 // navbar data 
@@ -213,8 +214,8 @@ export const FooterData = [
     {
         title: "Find Us On",
         items: [
-            <img key="apple" className="w-[170px]" src="/images/apple.png" alt="Apple Store" />,
-            <img key="google" className="w-[170px]" src="/images/Google.avif" alt="Google Play" />
+            <Image key="apple" className="!w-[170px]" src="/images/apple.png" alt="Apple Store" width={1000} height={100} />,
+            <Image key="google" className="!w-[170px]" src="/images/Google.avif" alt="Google Play" width={1000} height={100} />
         ]
     }
 ];

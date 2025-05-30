@@ -5,7 +5,7 @@ export default function GetinTouch() {
 
             <div className="w-[430px] bg-white max-md:hidden h-[650px] p-7 rounded-4xl absolute -top-50 left-40 flex gap-7 flex-col">
                 <h4 className="text-4xl font-medium text-[#272443]">Get in Touch</h4>
-                <p className="text-xl">I'm a paragraph. Click here to add your own text and edit me.</p>
+                <p className="text-xl">Im a paragraph. Click here to add your own text and edit me.</p>
                 <div className="flex gap-5">
                     <span className="flex flex-col gap-2 "><p className="text-xl">First Name*</p><input type="text" className="border w-[100%] h-[45px] rounded-xl" /></span>
                     <span className="flex flex-col gap-2 "><p className="text-xl">First Name*</p><input type="text" className="border w-[100%] h-[45px] rounded-xl" /></span>

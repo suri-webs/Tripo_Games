@@ -1,7 +1,6 @@
 import { WhatTextData, WhatTextData2 } from "@/Lib/AllDatas"
 import Founders from "../Founders/Founders"
-WhatTextData
-WhatTextData2
+
 
 export default function WhatAbout() {
 
