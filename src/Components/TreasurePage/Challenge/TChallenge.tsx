@@ -1,6 +1,6 @@
 export default function TreasureChallenge() {
     return (
-        <section className="w-[full] relative h-[750px] max-lg:h-full max-lg:py-[20px] bg-[url('/images/Ct-bg.avif')] bg-cover bg-center bg-no-repeat bg-fixed flex justify-center items-center">
+        <section className="w-[full] relative h-[750px] max-lg:h-full max-lg:py-[20px] bg-[url('/images/ct-bg.avif')] bg-cover bg-center bg-no-repeat bg-fixed flex justify-center items-center">
             <div className="absolute w-full h-full bg-[#ed3717ba]"></div>
             <div className="z-8 text-white w-[65%] max-lg:w-full flex justify-center items-center max-sm:gap-5 flex-col gap-10">
                 <p className="text-xl font-medium">Play Against Other Players Worldwide</p>
