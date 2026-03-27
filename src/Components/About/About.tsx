@@ -14,9 +14,9 @@ export default function About() {
             </div>
             <div className="w-[40%] h-[420px] flex justify-center items-center  max-md:w-full rounded-2xl  relative ">
                 <div className="relative rounded-2xl w-full max-sm:w-[90%] max-md:h-[70%] h-full overflow-hidden">
-                    <Image className="absolute inset-0 rou !w-full !h-full hover:scale-105 transition-all ease-in duration-300  object-cover object-center" src="/images/About-Image.avif" alt="" width={1000} height={100} />
+                    <Image className="absolute inset-0 rou !w-full !h-full hover:scale-105 transition-all ease-in duration-300  object-cover object-center" src="/images/about-image.avif" alt="" width={1000} height={100} />
                 </div>
-                <Image className="absolute -bottom-20 -left-20 max-sm:bottom-5 max-sm:left-[50%] !w-[250px] max-sm:!w-[150px]" src="/images/Doll.avif" alt=""  width={1000} height={100} />
+                <Image className="absolute -bottom-20 -left-20 max-sm:bottom-5 max-sm:left-[50%] !w-[250px] max-sm:!w-[150px]" src="/images/doll.avif" alt=""  width={1000} height={100} />
             </div>
         </section>
     )
