@@ -34,7 +34,7 @@ export default function OurGame() {
                                 </div>
                             </div>
                         ))}
-                        <Image className="absolute bottom-0 right-0 !w-[350px]" src="/images/Ghost-cute.avif" alt="" width={100} height={1000}/>
+                        <Image className="absolute bottom-0 right-0 !w-[350px]" src="/images/ghost-cute.avif" alt="" width={100} height={1000}/>
                     </div>
                 </div>
 

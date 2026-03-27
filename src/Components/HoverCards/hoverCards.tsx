@@ -9,15 +9,15 @@ interface HoverCardsProps {
 
 const HoverCardsdata: HoverCardsProps[] = [
     {
-        image: "/images/Helloween.jpg",
+        image: "/images/helloween.jpg",
         link: "/kipon"
     },
     {
-        image: "/images/Robot.jpg",
+        image: "/images/robot.jpg",
         link: "/robotrix"
     },
     {
-        image: "/images/Coin.jpg",
+        image: "/images/coin.jpg",
         link: "/treasure"
     },
 ];

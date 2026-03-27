@@ -84,22 +84,22 @@ export const boxPositions: BoxPosition[] = [
     {
         id: 'top-left',
         className: 'left-0 top-0',
-        image: "/images/Cat-hat.jpg",
+        image: "/images/cat-hat.jpg",
         heading: "Kipon",
         Para: 'Casual - Free',
         paragraph: "I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.",
         apple: "/images/apple.png",
-        playstore: "/images/Google.avif"
+        playstore: "/images/google.avif"
     },
     {
         id: 'top-right',
         className: 'right-0 top-0',
-        image: "/images/Robotrix.avif",
+        image: "/images/robotrix.avif",
         heading: "Robotrix",
         Para: 'RPG - Free',
         paragraph: "I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.",
         apple: "/images/apple.png",
-        playstore: "/images/Google.avif"
+        playstore: "/images/google.avif"
     },
     {
         id: 'bottom-left',
@@ -109,7 +109,7 @@ export const boxPositions: BoxPosition[] = [
         Para: 'Adventure - Free',
         paragraph: "I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.",
         apple: "/images/apple.png",
-        playstore: "/images/Google.avif"
+        playstore: "/images/google.avif"
     },
 ];
 
@@ -141,22 +141,22 @@ export const WhatTextData2 = [
 
 export const images = [
     {
-        image: "/images/Cartoon1.jpg",
+        image: "/images/cartoon1.jpg",
         name: "Suraj",
         work: "Amarjeet Daddy"
     },
     {
-        image: "/images/Cartoon2.jpg",
+        image: "/images/cartoon2.jpg",
         name: "Ayush",
         work: "Game Devloper"
     },
     {
-        image: "/images/Cartoon3.jpg",
+        image: "/images/cartoon3.jpg",
         name: "AmarBeta",
         work: "Suraj ka Beta"
     },
     {
-        image: "/images/Cartoon4.jpg",
+        image: "/images/cartoon4.jpg",
         name: "Lodu Lalit",
         work: "Meri Ooladd"
     },
@@ -168,25 +168,25 @@ export const images = [
 
 export const JobOpningData = [
     {
-        image: "/images/CardRobot1.avif",
+        image: "/images/cardrobot1.avif",
         title: "Community Manager",
         post: "San Francisco, CA",
         paragraph: "I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.",
     },
     {
-        image: "/images/CardRobot2.avif",
+        image: "/images/cardrobot2.avif",
         title: "QA Tester",
         post: "San Francisco, CA",
         paragraph: "I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.",
     },
     {
-        image: "/images/CardRobot3.avif",
+        image: "/images/cardrobot3.avif",
         title: "Game Designer",
         post: "San Francisco, CA",
         paragraph: "I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.",
     },
     {
-        image: "/images/CardRobot4.avif",
+        image: "/images/cardrobot4.avif",
         title: "Game Developer",
         post: "San Francisco, CA",
         paragraph: "I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.",
@@ -215,7 +215,7 @@ export const FooterData = [
         title: "Find Us On",
         items: [
             <Image key="apple" className="!w-[170px]" src="/images/apple.png" alt="Apple Store" width={1000} height={100} />,
-            <Image key="google" className="!w-[170px]" src="/images/Google.avif" alt="Google Play" width={1000} height={100} />
+            <Image key="google" className="!w-[170px]" src="/images/google.avif" alt="Google Play" width={1000} height={100} />
         ]
     }
 ];

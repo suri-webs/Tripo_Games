@@ -3,13 +3,13 @@ import Image from "next/image";
 export default function KiponHead() {
     return (
         <section className="w-full h-[1100px] max-md:h-[800px] flex justify-center items-end bg-[#F6F4F0]">
-            <div className="w-full h-[70%] max-md:h-[50%] relative bg-[url('/images/KiponBg.avif')] bg-cover bg-center bg-no-repeat bg-fixed ">
+            <div className="w-full h-[70%] max-md:h-[50%] relative bg-[url('/images/kiponBg.avif')] bg-cover bg-center bg-no-repeat bg-fixed ">
                 <div className="flex max-lg:h-full absolute max-md:px-5 -top-45 left-30 max-md:w-[90%]
                  max-sm:w-[90%] max-md:left-2 max-sm:left-4 shadow-2xl max-md:h-fit max-md:py-10
                   rounded-3xl px-15 py-20 flex-col bg-white w-[45%]  h-[90%] gap-10 max-md:gap-5 ">
                     <div className="flex  gap-7">
                         <span className="shadow-[0_0_10px_#FAC8C7] w-[100px] h-[100px] max-md:w-[80px] max-md:h-[80px] flex justify-center items-center rounded-4xl">
-                            <Image className="!w-[85px] max-md:!w-[65px] max-md:!h-[65px] !h-[85px] max-md:rounded-3xl rounded-4xl" src={"/images/Cat-hat.jpg"} alt=""  width={1000} height={100} />
+                            <Image className="!w-[85px] max-md:!w-[65px] max-md:!h-[65px] !h-[85px] max-md:rounded-3xl rounded-4xl" src={"/images/cat-hat.jpg"} alt=""  width={1000} height={100} />
                         </span>
                         <div className="flex flex-col justify-center">
                             <h2 className="text-3xl max-md:text-2xl text-[#272443] suez-regular">{"Kipon"}</h2>
