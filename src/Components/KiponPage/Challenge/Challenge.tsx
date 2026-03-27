@@ -1,6 +1,6 @@
 export default function Challenge() {
     return (
-        <section className="w-[full] relative h-[750px] max-lg:h-full max-lg:py-[20px] bg-[url('/Images/Challenge-bg.avif')] bg-cover bg-center bg-no-repeat bg-fixed flex justify-center items-center">
+        <section className="w-[full] relative h-[750px] max-lg:h-full max-lg:py-[20px] bg-[url('/images/Challenge-bg.avif')] bg-cover bg-center bg-no-repeat bg-fixed flex justify-center items-center">
             <div className="absolute w-full h-full bg-[#fd3410ba]"></div>
             <div className="z-8 text-white w-[65%] max-lg:w-full flex justify-center items-center flex-col gap-10">
                 <h2 className="text-5xl w-[85%] max-lg:text-4xl max-sm:text-2xl text-center suez-regular">Challenge a Friend or Race Against the Clock as You Battle Through 20 Levels of Endless Fun</h2>

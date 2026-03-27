@@ -5,7 +5,7 @@ import Founders from "../Founders/Founders"
 export default function WhatAbout() {
 
     return (
-        <section className="w-full py-[150px] max-md:h-full relative bg-[url('/Images/AboutWhat-bg.avif')] bg-cover bg-center bg-no-repeat bg-fixed flex justify-center items-center">
+        <section className="w-full py-[150px] max-md:h-full relative bg-[url('/images/AboutWhat-bg.avif')] bg-cover bg-center bg-no-repeat bg-fixed flex justify-center items-center">
             <div className="w-full h-full bg-[#f6f4f1cf] absolute inset-0 "></div>
             <div className="z-9 flex  justify-center items-center flex-col gap-15 max-md:gap-5">
                 <h3 className="text-5xl suez-regular max-md:text-3xl text-[#272443]">What We Are About</h3>

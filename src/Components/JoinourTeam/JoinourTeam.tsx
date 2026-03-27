@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function JoinourTeam() {
     return (
-        <div className="w-full relative h-[800px] max-md:h-[500px] bg-[url('/Images/First-fixed-bg.avif')] bg-cover bg-center bg-no-repeat bg-fixed flex justify-start p-[120px] max-md:p-[20px] max-md:pt-10 items-start">
+        <div className="w-full relative h-[800px] max-md:h-[500px] bg-[url('/images/First-fixed-bg.avif')] bg-cover bg-center bg-no-repeat bg-fixed flex justify-start p-[120px] max-md:p-[20px] max-md:pt-10 items-start">
             <div className="w-[800px] flex flex-col max-md:justify-center gap-10">
                 <h1 className="text-3xl max-md:text-2xl text-white font-medium">Join Our Team</h1>
                 <p className="text-5xl max-md:text-3xl suez-regular tracking-wider  text-white">It takes the worlds best talent to change the game.</p>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function OurOffice() {
     return (
-        <section className="w-full relative h-[700px] max-md:py-10 max-md:gap-15 max-md:h-full max-md:flex-col  flex justify-center items-center bg-[url('/Images/OurOffice_bg.avif')] bg-cover bg-center bg-no-repeat bg-fixed">
+        <section className="w-full relative h-[700px] max-md:py-10 max-md:gap-15 max-md:h-full max-md:flex-col  flex justify-center items-center bg-[url('/images/OurOffice_bg.avif')] bg-cover bg-center bg-no-repeat bg-fixed">
             <div className="w-full h-full absolute inset-0 bg-[#eb2f22b6]" ></div>
             <div className="w-[45%] max-md:w-[90%] z-79 flex justify-center items-center h-full " >
                 <ul className="w-[60%] max-md:w-full text-white flex flex-col  gap-5">

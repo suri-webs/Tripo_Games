@@ -1,6 +1,6 @@
 export default function GetinTouch() {
     return (
-        <section className="w-full h-[600px] bg-[url('/Images/Star-Bg-fixed.avif')] bg-cover  bg-center bg-no-repeat bg-fixed relative">
+        <section className="w-full h-[600px] bg-[url('/images/Star-Bg-fixed.avif')] bg-cover  bg-center bg-no-repeat bg-fixed relative">
             <div className="absolute w-full h-full inset-0 bg-[#00000048]"></div>
 
             <div className="w-[430px] bg-white max-md:hidden h-[650px] p-7 rounded-4xl absolute -top-50 left-40 flex gap-7 flex-col">
